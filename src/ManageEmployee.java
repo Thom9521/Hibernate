@@ -22,9 +22,9 @@ public class ManageEmployee {
       ManageEmployee ME = new ManageEmployee();
 
       /* Add few employee records in database */
-      Integer empID1 = ME.addEmployee("Michael", "Trans", 2000);
-      Integer empID2 = ME.addEmployee("Lars", "Trans", 15000);
-      Integer empID3 = ME.addEmployee("Bjarne", "Trans", 100000);
+      Integer empID1 = ME.addEmployee("Joe", "Jackson", 2000);
+      Integer empID2 = ME.addEmployee("Billy", "Gates", 15000);
+      Integer empID3 = ME.addEmployee("Moby", "Manson", 100000);
 
       /* List down all the employees */
       ME.listEmployees();
